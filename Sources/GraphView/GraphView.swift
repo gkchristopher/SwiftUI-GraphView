@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct GraphView: View {
+public struct GraphView: View {
     var values: [CGFloat]
 
     var tint: Color = .blue
@@ -20,7 +20,11 @@ struct GraphView: View {
         return formatter
     }()
 
-    var body: some View {
+    public init(values: [CGFloat]) {
+        self.values = values
+    }
+
+    public var body: some View {
         HStack(alignment: .bottom, spacing: 30) {
             ForEach(values, id: \.self) { value in
                 VStack {
