@@ -1,2 +1,3 @@
-# SwiftUI-GraphView
-A SwiftUI bar graph
+# GraphView
+
+A description of this package.
