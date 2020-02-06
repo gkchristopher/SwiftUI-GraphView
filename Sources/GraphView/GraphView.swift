@@ -20,8 +20,9 @@ public struct GraphView: View {
         return formatter
     }()
 
-    public init(values: [CGFloat]) {
+    public init(values: [CGFloat], tint: Color = .blue) {
         self.values = values
+        self.tint = tint
     }
 
     public var body: some View {
