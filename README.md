@@ -1,8 +1,12 @@
 # GraphView
 
-![iOS-13.0+](https://img.shields.io/badge/iOS-13.0+-blue.svg)
-![Swift-5.1](https://img.shields.io/badge/Swift-5.1-ff69b4.svg)
-![@gkchristopher](https://img.shields.io/badge/Contact-@gkchristopher-lightgrey.svg?style=flat)
+<p>
+    <img src="https://img.shields.io/badge/iOS-13.0+-blue.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.1-ff69b4.svg" />
+    <a href="https://twitter.com/gkchristopher">
+        <img src="https://img.shields.io/badge/Contact-@gkchristopher-lightgrey.svg?style=flat" alt="Twitter: @gkchristopher" />
+    </a>
+</p>
 
 This is a simple vertical bar graph view. 
 
